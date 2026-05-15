@@ -1,54 +1,49 @@
-<table width="620" cellspacing="0" cellpadding="0" border="0" align="center"
-    style="margin:5px auto;border:1px solid #000000;border-radius:1px;overflow:hidden;font-family:Roboto,Arial,sans-serif;font-size:12pt;color:#042354;background:#ffffff;">
+<table width="620" cellspacing="0" cellpadding="0" border="0" align="center" style="margin:5px auto;border:1px solid #000000;border-radius:1px;overflow:hidden;font-family:Roboto,Arial,sans-serif;font-size:12pt;color:#042354;background:#ffffff;">
     <tbody>
         <tr>
-            <td align="center" style="padding-bottom:15px;"><img
-                    src="https://raw.githubusercontent.com/daeKIBA/DocumentosKIBA/refs/heads/main/Banners/bannerEncabezadov3%20KIBA26.png"
-                    width="620" style="display:block;margin:0 auto;"><img
-                    src="https://raw.githubusercontent.com/daeKIBA/DocumentosKIBA/refs/heads/main/Banners/bannerv2%20KIBA26.png"
-                    width="620" style="display:block;margin:0 auto;"></td>
+            <td align="center" style="padding-bottom:15px;"><img src="https://raw.githubusercontent.com/daeKIBA/DocumentosKIBA/refs/heads/main/Banners/bannerEncabezadov3%20KIBA26.png" width="620" style="display:block;margin:0 auto;"><img src="https://raw.githubusercontent.com/daeKIBA/DocumentosKIBA/refs/heads/main/Banners/bannerv2%20KIBA26.png" width="620" style="display:block;margin:0 auto;"></td>
         </tr>
         <tr>
-            <td style="padding: 15px 25px 40px 25px;text-align:justify;">Estimados(as),<br><br>El responsable de la
-                unidad {Unidad_Solicitante.Name} ha aprobado el requerimiento {Nro_de_Solicitud} -
-                "{Nombre_del_requerimiento} ".<br><br>El requerimiento tiene las siguientes características:<br><br>
-                <ul style="padding-left:20px; margin:0;">
-                    <li style="margin-bottom:10px;text-align:justify;">Nombre del requerimiento:
-                        {Nombre_del_requerimiento}</li>
-                    <li style="margin-bottom:10px;text-align:justify;">Tipo de Requerimiento:
-                        {Tipo_de_requerimiento_INICIO_FAMILIA}</li>
-                    <li style="margin-bottom:10px;text-align:justify;">Descripción:
-                        {Descripcion_detallada_del_requerimiento_yo_necesidad}</li>
-                    <li style="margin-bottom:10px;text-align:justify;">Fecha de registro:
-                        {Fecha_de_recepcion_del_requerimiento}</li>
-                    <li style="margin-bottom:10px;text-align:justify;">Fecha sugerida para la 1era visita:
-                        {Fecha_sugerida_para_la_visita_a_la_unidad}</li>
-                    <li style="margin-bottom:10px;text-align:justify;">Fecha sugerida para la 2da visita:
-                        {Segunda_Fecha_sugerida_para_la_visita_a_la_unidad}</li>
-                    <li style="margin-bottom:10px;text-align:justify;">Persona de contacto 1:
-                        {Nombre_del_contacto_para_la_Primera_Visita}</li>
-                    <li style="margin-bottom:10px;text-align:justify;">Correo 1:
-                        {Correo_del_contacto_para_la_Primera_Visita}</li>
-                    <li style="margin-bottom:10px;text-align:justify;">Persona de contacto 2:
-                        {Nombre_de_Contacto__Primera_Visita__O}</li>
-                    <li style="margin-bottom:0px;text-align:justify;">Correo 2: {Correo_del_contacto_1ra_visita}</li>
+            <td style="padding:15px 25px 40px 25px;text-align:justify;">Estimados(as),<br><br>El responsable de la unidad {Unidad_Solicitante.Name} ha aprobado el requerimiento {Nro_de_Solicitud} - "{Nombre_del_requerimiento} ".<br><br>El requerimiento tiene las siguientes características:<br><br>
+                <ul style="padding-left:20px;margin:0;list-style-type:disc;">
+                    <li style="margin-bottom:10px;text-align:left;"><b>Información general</b>
+                        <ul style="padding-left:20px;margin-top:8px;list-style-type:circle;">
+                            <li style="margin-bottom:8px;">Nombre del requerimiento: {Nombre_del_requerimiento}</li>
+                            <li style="margin-bottom:8px;">Tipo de requerimiento: {Tipo_de_requerimiento_INICIO_FAMILIA}</li>
+                            <li style="margin-bottom:8px;">Descripción: {Descripcion_detallada_del_requerimiento_yo_necesidad}</li>
+                            <li>Fecha de registro: {Fecha_de_recepcion_del_requerimiento}</li>
+                        </ul>
+                    </li>
+
+                    <li style="margin-bottom:10px;text-align:left;"><b>Fechas sugeridas de visita</b>
+                        <ul style="padding-left:20px;margin-top:8px;list-style-type:circle;">
+                            <li style="margin-bottom:8px;">1era visita: {Fecha_sugerida_para_la_visita_a_la_unidad}</li>
+                            <li>2da visita: {Segunda_Fecha_sugerida_para_la_visita_a_la_unidad}</li>
+                        </ul>
+                    </li>
+
+                    <li style="text-align:left;"><b>Personas de contacto</b>
+                        <ul style="padding-left:20px;margin-top:8px;list-style-type:circle;">
+                            <li style="margin-bottom:8px;">Persona de contacto 1: {Nombre_del_contacto_para_la_Primera_Visita}</li>
+                            <li style="margin-bottom:8px;">Correo 1: {Correo_del_contacto_para_la_Primera_Visita}</li>
+                            <li style="margin-bottom:8px;">Persona de contacto 2: {Nombre_de_Contacto__Primera_Visita__O}</li>
+                            <li>Correo 2: {Correo_del_contacto_1ra_visita}</li>
+                        </ul>
+                    </li>
                 </ul>
             </td>
         </tr>
         <tr>
-            <td style="padding: 5px 25px 5px 25px;text-align:justify;font-size: 14px;color:#042354;"><i>Atentamente,</i>
-            </td>
+            <td style="padding:5px 25px 5px 25px;text-align:justify;font-size:14px;color:#042354;"><i>Atentamente,</i></td>
         </tr>
         <tr>
-            <td style="padding: 5px 25px 5px 25px;text-align:justify;font-size: 14px;color: #042354;"><b>Oficina de
-                    Presupuestos - Sección Inversiones</b></td>
+            <td style="padding:5px 25px 5px 25px;text-align:justify;font-size:14px;color:#042354;"><b>Oficina de Presupuestos - Sección Inversiones</b></td>
         </tr>
         <tr>
-            <td style="padding: 5px 25px 25px 25px;text-align:justify;font-size: 14px;color: #042354;"><b>Dirección
-                    Académica de Economía</b></td>
+            <td style="padding:5px 25px 25px 25px;text-align:justify;font-size:14px;color:#042354;"><b>Dirección Académica de Economía</b></td>
         </tr>
         <tr>
-            <td style="background-color:#1E2A4E; height:25px;"></td>
+            <td style="background-color:#1E2A4E;height:25px;"></td>
         </tr>
     </tbody>
 </table>
