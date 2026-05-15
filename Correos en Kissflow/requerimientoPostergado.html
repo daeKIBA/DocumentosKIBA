@@ -11,19 +11,11 @@
         </tr>
         <tr>
             <td style="padding: 15px 25px 40px 25px;text-align:justify;">
-                Estimados(as) gestores y responsables de unidad,<br><br>
-
-                En relación con el requerimiento <b>{Nro_de_Requerimiento}</b>, la Comisión Ad Hoc ha determinado que,
+                Estimados(as) gestores y responsables de unidad,<br><br>En relación con el requerimiento <b>{Nro_de_Requerimiento}</b>, la Comisión Ad Hoc ha determinado que,
                 si bien el requerimiento ha sido preliminarmente evaluado de acuerdo con los criterios y cronogramas
                 establecidos, su evaluación será postergada para el siguiente proceso de formulación anual de inversiones
-                2026.<br><br>
-
-                Es importante precisar que ello no implica su ejecución en dicho año, sino su consideración dentro de la
-                cartera institucional, en función de las necesidades de la Universidad y la disponibilidad de recursos.<br><br>
-
-                {if(isBlank(context.Trigger_gUVSmN_upd.Comentarios_sobre_la_postergacion), "", concatenate("Asimismo, se ha registrado el siguiente comentario adicional por parte de la Oficina Técnica coordinadora: ", context.Trigger_gUVSmN_upd.Comentarios_sobre_la_postergacion))}<br><br>
-
-                Agradecemos su comprensión frente a esta decisión, que busca asegurar que toda inversión responda a
+                2026.<br><br>Es importante precisar que ello no implica su ejecución en dicho año, sino su consideración dentro de la
+                cartera institucional, en función de las necesidades de la Universidad y la disponibilidad de recursos.<br><br>{if(isBlank(context.Trigger_gUVSmN_upd.Comentarios_sobre_la_postergacion), "", concatenate("Asimismo, se ha registrado el siguiente comentario adicional por parte de la Oficina Técnica coordinadora: ", context.Trigger_gUVSmN_upd.Comentarios_sobre_la_postergacion))}<br><br>Agradecemos su comprensión frente a esta decisión, que busca asegurar que toda inversión responda a
                 criterios de sostenibilidad, planificación y beneficio para la comunidad universitaria.
             </td>
         </tr>
