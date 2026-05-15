@@ -17,7 +17,7 @@ def obtener_numero(nombre_archivo):
     return int(numeros[0]) if numeros else 0
 
 archivos_html = [
-    archivo for archivo in os.listdir(carpeta_html)
+    archivo for archivo in os.listdir("Correos en Kissflow")
     if archivo.lower().endswith(".html")
 ]
 
